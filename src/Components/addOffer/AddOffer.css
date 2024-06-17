@@ -1,0 +1,11 @@
+.regreg1{
+    position: absolute;
+        top: 600px;
+        left: 150px;
+        width: 350px;
+        background-color: #f6f3f2;
+        transition: color 0.3s ease;
+  }
+  .regreg1:hover {
+    color: grey; 
+  }

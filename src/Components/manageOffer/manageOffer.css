@@ -1,0 +1,185 @@
+/* Set background color for the entire page */
+body {
+    background-color: #f6f3f2;
+    margin: 0;
+    padding: 0;
+}
+.title{
+    margin-top: 50px;
+}
+
+.globe {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding-top: 80px; /* Adjust top padding as needed */
+}
+
+.button-container {
+    position: absolute;
+    top: 80px;
+    right: 80px;
+    z-index: 1; /* Ensure button container is above other content */
+}
+
+.filters {
+    display: flex;
+    align-items: center;
+    margin-right: 10px; /* Adjust spacing between filters and button */
+}
+
+.filter-button {
+    background-color: #007bff; /* Blue color */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    cursor: pointer;
+    border-radius: 5px;
+    margin-right: 10px;
+}
+
+.filter-button:hover {
+    background-color: #0056b3; /* Darker shade of blue on hover */
+}
+
+.button-left {
+    background-color: #28a745; /* Green color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.button-left:hover {
+    background-color: #218838; /* Darker shade of green on hover */
+}
+
+.icon {
+    margin-right: 5px; /* Adjust the spacing between icon and text */
+}
+
+.offer-boxes {
+    display: flex;
+    flex-direction: column; /* Display boxes in a column */
+    align-items: center; /* Center align boxes horizontally */
+    gap: 20px; /* Adjust the space between offer boxes */
+    margin-top: 50px; /* Adjust top margin as needed */
+}
+
+.offer-box {
+    background-color: #fff;
+    display: flex;
+    padding: 30px; /* Increase padding for larger boxes */
+    border-radius: 8px;
+    box-shadow: 0 4px 8px rgba(0, 0, 0, 0.1); /* Add shadow */
+    transition: box-shadow 0.3s ease, transform 0.3s ease;
+    cursor: pointer;
+    width: 1000px; /* Increase width for larger boxes */
+}
+
+.offer-box:hover {
+    box-shadow: 0 8px 16px rgba(0, 0, 0, 0.2); /* Darken shadow on hover */
+    transform: translateY(-5px); /* Lift box on hover */
+}
+
+.offer-box h3 {
+    font-size: 20px; /* Increase font size for heading */
+    margin-bottom: 10px;
+}
+
+.offer-box p {
+    font-size: 16px; /* Increase font size for description */
+    color: #666;
+}
+
+.offer-details {
+    flex: 1; /* Take remaining space */
+    padding: 0px; /* Padding for details */
+}
+
+.offre-desc{
+    padding: 10px;
+    margin-top: 50px;
+}
+.carousel-container {
+    flex: 1;
+    margin-right: 0px; /* Space between carousel and offer details */
+}
+.carousel-root {
+    width: 30%; /* Width of the carousel */
+    min-width: 150px; /* Minimum width for smaller screens */
+    padding: 20px; /* Padding for carousel */
+}
+
+.carousel {
+    border-radius: 8px;
+    overflow: hidden; /* Hide overflowing content */
+}
+
+.carousel .slide {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.carousel .slide img {
+    max-width: 100%; /* Ensure images resize within carousel */
+    height: auto;
+    border-radius: 8px; /* Rounded corners for images */
+}
+
+.button-group {
+    display: flex;
+    gap: 10px; /* Space between buttons */
+    margin-top: 20px; /* Space above the buttons */
+}
+.edit-button, .delete-button {
+    background-color: #007bff; /* Default button color */
+    color: white;
+    border: none;
+    padding: 10px 15px;
+    cursor: pointer;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-size: 16px;
+    font-weight: bold;
+    border-radius: 5px;
+    transition: background-color 0.3s ease;
+}
+.edit-button {
+    background-color: #ffc107; /* Yellow color for edit */
+}
+
+.edit-button:hover {
+    background-color: #e0a800; /* Darker shade of yellow on hover */
+}
+
+.delete-button {
+    background-color: #dc3545; /* Red color for delete */
+}
+
+.delete-button:hover {
+    background-color: #c82333; /* Darker shade of red on hover */
+}
+
+.edit-button .icon, .delete-button .icon {
+    margin-right: 0px; /* Adjust the spacing between icon and text */
+}
+
+
+
+
+
+
+
+
+

@@ -8,6 +8,7 @@ import Offers from './Components/offers/Offers';
 import RendezVous from './Components/rendezVous/RendezVous';
 import AddOffer from './Components/addOffer/AddOffer';
 import ModiffierOffer from './Components/modiffierOffer/ModiffierOffer';
+import ManageOffer from './Components/manageOffer/ManageOffer';
 function App() {
   const [user, setUser] = useState(null); // State to hold user data
 
@@ -23,6 +24,7 @@ function App() {
           <Route path="/rendezVous" element={<RendezVous />} />
           <Route path="/addOffer" element={<AddOffer />} />
           <Route path='/mod' element={<ModiffierOffer/>}/>
+          <Route path='/manage' element={<ManageOffer/>}/>
         </Routes>
       </Router>
     </div>

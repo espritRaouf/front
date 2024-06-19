@@ -76,7 +76,7 @@ export default function Offers() {
     <div className='cc'>
       <img src={menu} alt='menu' className='menu' onClick={toggleSidebar} />
       <SideBar isOpen={isSidebarOpen} toggleSidebar={toggleSidebar} />
-      <img src={logo} alt="logo" className="logo" onClick={() => { navig('/home') }} />
+      <img src={logo} alt="logo" className="logo"  onClick={() => { navig('/home') }} />
       <div className="container mt-4">
         <div className="row" style={{ position: "relative", top: "-570px" }}>
           {offers.map((ele) => (

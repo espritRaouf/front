@@ -7,6 +7,7 @@ import menu from '../../assets/menu.png';
 import logo from '../../assets/logo.png';
 import mod from '../../assets/mod.png'
 import './Profile.css';
+import raouf from '../../assets/raouf.jpg'
 import { useNavigate } from 'react-router';
 import { useState } from 'react';
 import lo from '../../assets/lo.png'
@@ -37,7 +38,7 @@ export default function Profile({ user }) {
                 top:"190px", cursor:"pointer"}} />
               <Card.Img 
                 variant="top" 
-                src={lo}
+                src={raouf}
                 alt="Profile Picture"
                 className="rounded-circle mx-auto d-block mb-3"
                 style={{ width: '150px', height: '150px' }}
@@ -46,7 +47,8 @@ export default function Profile({ user }) {
                 <strong>Email: </strong> <span style={{color:'green'}}>{user.email}</span><br />
                 <strong>First Name: </strong><span style={{color:'green'}}>{user.firstName}</span><br />
                 <strong>Last Name: </strong><span style={{color:'green'}}> {user.lastName}</span><br />
-               
+                <strong>Phone number: </strong> <span style={{color:'green'}}>20112470</span><br />
+
               </Card.Text>
             </Card.Body>
           </Card>
